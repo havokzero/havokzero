@@ -81,4 +81,5 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
   
 ---
 
-![](./profile-3d-contrib/profile-green-animate.svg)
+![](./profile-3d-contrib/profile-night-green.svg)
+
