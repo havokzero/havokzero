@@ -80,12 +80,14 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 - VoIP
 
 ---
+
 <a href="https://github.com/havokzero/havokzero">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/havokzero/havokzero/main/dark_mode.svg">
     <img alt="HavokZero's GitHub Profile README" src="https://raw.githubusercontent.com/havokzero/havokzero/main/light_mode.svg">
   </picture>
 </a>
+
 ---
 
 ![](./profile-3d-contrib/profile-night-green.svg)
