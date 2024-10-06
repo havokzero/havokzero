@@ -1,4 +1,4 @@
-# Hi, I'm havok 👋
+# Hi, I'm havok 👋 ![](https://komarev.com/ghpvc/?username=havokzero&color=FF0054)  <!-- Red Maybe? -->
 
 ---
 
