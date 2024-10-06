@@ -87,7 +87,7 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 
 <!-- ![Profile views](https://komarev.com/ghpvc/?username=havokzero&color=FF0054) -->
 ![](https://komarev.com/ghpvc/?username=havokzero&color=4B0082&label=PROFILE+VIEWS&style=flat-square)
-<-- haha -->
+<!-- haha -->
 ![](https://komarev.com/ghpvc/?username=havokzero&color=4B0082&style=pixel)
 
 
