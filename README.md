@@ -1,4 +1,4 @@
-# Hi, I'm havok 👋 ![](https://komarev.com/ghpvc/?username=havokzero&color=FF0054)  <!-- Red Maybe? -->
+# Hi, I'm havok 👋 
 
 ---
 
@@ -83,3 +83,6 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 
 ![](./profile-3d-contrib/profile-night-green.svg)
 
+---
+
+<!-- ![Profile views](https://komarev.com/ghpvc/?username=havokzero&color=FF0054) -->
