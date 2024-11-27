@@ -82,7 +82,7 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 ---
 
 ![](./profile-3d-contrib/profile-night-green.svg)
-<div align="center"> ![3D Contribution Graph](./profile-3d-contrib/profile-night-green.svg) </div>
+<!--<div align="center"> ![3D Contribution Graph](./profile-3d-contrib/profile-night-green.svg) </div>-->
 
 ---
 
