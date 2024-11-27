@@ -2,7 +2,9 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    - cron: "0 18 * * *"  # Runs at 18:00 UTC daily
+    # Runs at 6:00 AM and 6:00 PM UTC daily
+    - cron: "0 4 * * *"  # Morning update
+    - cron: "0 18 * * *" # Evening update
   workflow_dispatch:
 
 jobs:
@@ -12,11 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Ensure PAT is set in repo secrets
+          token: ${{ secrets.PROFILE_3D_TOKEN }}  # Use the new secret
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  # Use PAT to access repos and workflows
+          GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}  # Use the PAT for repo access
           USERNAME: ${{ github.repository_owner }}
 
       - name: Commit & Push
