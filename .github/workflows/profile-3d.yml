@@ -2,9 +2,8 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    # Runs at 6:00 AM and 6:00 PM UTC daily
-    - cron: "0 4 * * *"  # Morning update
-    - cron: "0 18 * * *" # Evening update
+    - cron: "0 11 * * *"  # 6:00 AM ET (11:00 AM UTC)
+    - cron: "0 3 * * *"   # 10:00 PM ET (3:00 AM UTC)
   workflow_dispatch:
 
 jobs:
@@ -14,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PROFILE_3D_TOKEN }}  # Use the new secret
+          token: ${{ secrets.PROFILE_3D_TOKEN }}  # Use the new PAT
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
@@ -25,6 +24,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
+          git pull --rebase origin main
           git add -A .
-          git commit -m "🖼️ Generate 3D Contribution Graph"
+          git commit -m "🖼️ Generate 3D Contribution Graph" || echo "No changes to commit"
           git push
