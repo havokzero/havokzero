@@ -18,7 +18,7 @@ jobs:
         with:
           username: "havok"
           image_path: "./assets/thm_propic.png"
-          GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}
+         
 
       - name: Commit THM badge (initial and updates)
         run: |
