@@ -1,3 +1,11 @@
+name: TryHackMe Update Badge
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
   update-thm-badge:
     runs-on: ubuntu-latest
     steps:
