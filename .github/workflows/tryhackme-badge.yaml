@@ -2,28 +2,29 @@ name: TryHackMe Update Badge
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: "0 0 * * *"   # daily
   workflow_dispatch:
 
+# make sure the job has write perms
+permissions:
+  contents: write
+
 jobs:
-  update-thm-badge:
+  tryhackme-badge-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # Force checkout to use your PAT so pushes are done as *you*, not github-actions[bot]
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PROFILE_3D_TOKEN }}   # your PAT with repo write
 
       - name: Ensure assets folder exists
         run: mkdir -p assets
 
+      # This action downloads the badge *and commits/pushes it itself*.
+      # Do NOT add your own git commit/push step after this.
       - uses: p4p1/tryhackme-badge-workflow@main
         with:
           username: "havok"
           image_path: "./assets/thm_propic.png"
-         
-
-      - name: Commit THM badge (initial and updates)
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add assets/thm_propic.png
-          git commit -m "⚡ Update TryHackMe badge" || echo "No changes to commit"
-          git push
+          GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}   # same PAT
