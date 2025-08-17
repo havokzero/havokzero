@@ -5,26 +5,32 @@ on:
     - cron: "0 0 * * *"   # daily
   workflow_dispatch:
 
-# make sure the job has write perms
 permissions:
   contents: write
 
 jobs:
-  tryhackme-badge-update:
+  update-badge:
     runs-on: ubuntu-latest
     steps:
-      # Force checkout to use your PAT so pushes are done as *you*, not github-actions[bot]
-      - uses: actions/checkout@v4
+      - name: Checkout with PAT (pushes as you)
+        uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PROFILE_3D_TOKEN }}   # your PAT with repo write
+          token: ${{ secrets.PROFILE_3D_TOKEN }}   # PAT with repo write to havokzero/havokzero
 
-      - name: Ensure assets folder exists
-        run: mkdir -p assets
+      - name: Ensure assets dir & download badge
+        run: |
+          mkdir -p assets
+          curl -fL "https://tryhackme-badges.s3.amazonaws.com/havok.png" -o assets/thm_propic.png
+          ls -l assets/thm_propic.png
 
-      # This action downloads the badge *and commits/pushes it itself*.
-      # Do NOT add your own git commit/push step after this.
-      - uses: p4p1/tryhackme-badge-workflow@main
-        with:
-          username: "havok"
-          image_path: "./assets/thm_propic.png"
-          GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}   # same PAT
+      - name: Commit & push if changed
+        run: |
+          git config user.name "havokzero"
+          git config user.email "46027877+havokzero@users.noreply.github.com"
+          git add assets/thm_propic.png
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update THM badge"
+            git push
+          fi
