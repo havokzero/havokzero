@@ -86,7 +86,7 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 
 ---
 
-[![TryHackMe](https://raw.githubusercontent.com/havokzero/havokzero/main/assets/thm_propic.png)](https://tryhackme.com/p/havok)
+![TryHackMe](https://raw.githubusercontent.com/havokzero/havokzero/main/assets/thm_propic.png)](https://tryhackme.com/p/havok)
 ![](https://tryhackme-badges.s3.amazonaws.com/havok.png)
 
 ---
