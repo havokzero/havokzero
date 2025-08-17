@@ -85,9 +85,13 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 <!--<div align="center"> ![3D Contribution Graph](./profile-3d-contrib/profile-night-green.svg) </div>-->
 
 ---
+[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/havok.png)](https://tryhackme.com/p/havok)
 
-![TryHackMe](https://raw.githubusercontent.com/havokzero/havokzero/main/assets/thm_propic.png)](https://tryhackme.com/p/havok)
-![](https://tryhackme-badges.s3.amazonaws.com/havok.png)
+[![TryHackMe](https://tryhackme-badges.s3.amazonaws.com/havok.png?cachebust=1)](https://tryhackme.com/p/havok)
+
+[![TryHackMe](https://raw.githubusercontent.com/havokzero/havokzero/main/assets/thm_propic.png)](https://tryhackme.com/p/havok)
+
+
 
 ---
 
