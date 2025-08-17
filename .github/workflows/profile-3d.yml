@@ -39,6 +39,7 @@ jobs:
       - uses: p4p1/tryhackme-badge-workflow@main
         with:
           username: "havok"
+          image_path: "./assets/thm_propic.png"   # ✅ specify the path
           GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}
 
       - name: Commit THM badge (initial and updates)
@@ -46,5 +47,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add assets/thm_propic.png
-          git commit -m "🔄 Update TryHackMe badge" || echo "No changes to commit"
+          git commit -m "⚡ Update TryHackMe badge" || echo "No changes to commit"
           git push || echo "Nothing to push"
