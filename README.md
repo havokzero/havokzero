@@ -87,6 +87,8 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 ---
 
 [![TryHackMe](assets/thm_propic.png)](https://tryhackme.com/p/havok)
+<p align="center"><a href="https://tryhackme.com/p/havok"><img src="./assets/thm_propic.png" alt="TryHackMe Badge"></a></p>
+
 <!--div align="center"> [![TryHackMe](assets/thm_propic.png)](https://tryhackme.com/p/havok) </div-->
 
 
