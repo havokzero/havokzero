@@ -15,12 +15,10 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}
           USERNAME:     ${{ github.repository_owner }}
-
       - name: Commit & Push
         run: |
           git config user.name github-actions
@@ -42,3 +40,11 @@ jobs:
         with:
           username: "havok"
           GITHUB_TOKEN: ${{ secrets.PROFILE_3D_TOKEN }}
+
+      - name: Commit THM badge (initial and updates)
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/thm_propic.png
+          git commit -m "🔄 Update TryHackMe badge" || echo "No changes to commit"
+          git push || echo "Nothing to push"
