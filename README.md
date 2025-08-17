@@ -86,6 +86,9 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 
 ---
 
+<img src="https://raw.githubusercontent.com/havokzero/havokzero/main/assets/thm_propic.png" alt="TryHackMe Badge" />
+
+
 <!-- ![Profile views](https://komarev.com/ghpvc/?username=havokzero&color=FF0054) -->
 ![](https://komarev.com/ghpvc/?username=havokzero&color=4B0082&label=PROFILE+VIEWS&style=flat-square)
 ![](https://komarev.com/ghpvc/?username=havokzero&color=4B0082&style=pixel)
