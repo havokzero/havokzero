@@ -3,8 +3,8 @@ name: GitHub-Profile-3D-Contrib
 on:
   schedule:
     # Runs at 4:00 AM and 10:00 PM ET daily (9:00 AM UTC and 3:00 AM UTC)
-    - cron: "0 9 * * *"   # Morning update
-    - cron: "0 3 * * *"   # Evening update
+    - cron: "0 9 * * *"
+    - cron: "0 3 * * *"
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,6 @@ jobs:
           git push || echo "Push failed, likely no changes to push"
 
   update-thm-badge:
-    name: update-tryhackme-badge
     runs-on: ubuntu-latest
     needs: build
     steps:
