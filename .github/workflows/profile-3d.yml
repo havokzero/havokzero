@@ -2,7 +2,6 @@ name: GitHub-Profile-3D-Contrib
 
 on:
   schedule:
-    # Runs at 4:00 AM and 10:00 PM ET daily (9:00 AM UTC and 3:00 AM UTC)
     - cron: "0 9 * * *"
     - cron: "0 3 * * *"
   workflow_dispatch:
@@ -35,6 +34,9 @@ jobs:
     needs: build
     steps:
       - uses: actions/checkout@v3
+
+      - name: Ensure assets folder exists
+        run: mkdir -p assets
 
       - uses: p4p1/tryhackme-badge-workflow@main
         with:
