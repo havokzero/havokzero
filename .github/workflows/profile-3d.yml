@@ -16,8 +16,7 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.PROFILE_3D_TOKEN }}  # Use the PAT for repo access
+       
 
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
