@@ -1,17 +1,5 @@
-name: TryHackMe Update Badge
-
-on:
-  schedule:
-    - cron: '0 0 * * *'   # every day
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  tryhackme-badge-update:
+  update-thm-badge:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -28,7 +16,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git pull --rebase
           git add assets/thm_propic.png
           git commit -m "⚡ Update TryHackMe badge" || echo "No changes to commit"
-          git push || echo "Nothing to push"
+          git push
