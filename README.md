@@ -91,7 +91,7 @@ I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring securit
 
 ![](assets/thm_propic.png)
 
-<div align="center"> ![](assets/thm_propic.png) </div> <!--(https://tryhackme.com/p/havok) </div-->
+<!--div align="center"> ![](assets/thm_propic.png) </div> <!--(https://tryhackme.com/p/havok) </div-->
 
 
 
