@@ -22,7 +22,8 @@ jobs:
       - name: Download THM badge
         run: |
           mkdir -p assets
-          curl -fsSL "https://tryhackme-badges.s3.amazonaws.com/havok.png" -o assets/thm_propic.png
+          # curl -fsSL "https://tryhackme-badges.s3.amazonaws.com/havok.png" -o assets/thm_propic.png
+            curl -fsSl "https://tryhackme.com/api/v2/badges/public-profile?userPublicId=108704" -o assets/thm_propic.png
           ls -l assets/thm_propic.png
 
       - name: Commit & push if changed
