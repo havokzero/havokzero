@@ -1,20 +1,47 @@
 # Hi, I'm havok 👋 
 
-> **Senior Fraud Investigator | Technical Security Researcher | Veteran**
+> **Senior Fraud Investigator | Technical Security Researcher | Army Veteran**
 
 ---
 
 ### 👨‍💻 About Me
 
-I am a professional **Fraud & Financial Crimes Investigator** and **Technical Security Researcher** based in Phoenix, AZ. With a background of 8 years in the **U.S. Army**, I specialize in defensive and offensive security, moving between deep-dive financial forensics and low-level exploit development. 
+I am a professional **Fraud & Financial Crimes Investigator** and **Technical Security Researcher** based in Phoenix, AZ. With 8 years of service in the **U.S. Army**, I specialize in defensive and offensive security, moving between deep-dive financial forensics and low-level exploit development. 
 
 Whether it's parsing logs with PowerShell, hunting vulnerabilities in the wild, or stress-testing engineering-grade filaments for structural integrity, I’m driven by a need to understand how things break—and how to fix them.
 
 ---
 
+### 📊 Activity & Contributions
+
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Graph" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=havokzero&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="havok's GitHub stats" />
+  <br/>
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=havokzero&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=havokzero&theme=radical&hide_border=true" alt="GitHub Streak" />
+</div>
+
+---
+
+### 🚀 Current Research & Projects
+
+* **Vicidial Exposure Study:** Authoring a whitepaper on the global footprint of exposed Vicidial servers identified via wide-scale network scanning.
+* **Hardware Monitoring:** Developing a self-hosted **Flask/MQTT dashboard** for real-time monitoring and telemetry of Bambu Lab H2S systems.
+* **Material Science:** Conducting technical studies on **PA612-CF15** and **PPA-CF** performance in extreme high-heat environments.
+* **Robotics:** Integrating **NVIDIA Jetson** compute modules into high-performance RC platforms for edge AI applications.
+
+---
+
 ### 🛠️ Languages and Tools
 
-**Core Development & Scripting**
+**Development & Scripting**
 <p align="left">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
@@ -33,37 +60,7 @@ Whether it's parsing logs with PowerShell, hunting vulnerabilities in the wild, 
 
 ---
 
-### 🚀 Current Research & Projects
-
-* **Vicidial Exposure Study:** Currently writing a whitepaper on the global prevalence of exposed Vicidial servers identified via network reconnaissance.
-* **Hardware Monitoring:** Developing a self-hosted **Flask/MQTT dashboard** for real-time monitoring of 3D printing systems (Bambu Lab H2S / Flashforge).
-* **Material Science (Structural Integrity):** Testing **PA612-CF15** and **PPA-CF** performance in high-heat climates for structural applications.
-* **Robotics & Edge AI:** Integrating **NVIDIA Jetson** compute modules into high-performance RC platforms (Arrma Mojave/Grom).
-
----
-
-### 🔥 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=havokzero&show_icons=true&theme=radical&rank_icon=github" alt="havok's GitHub stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=havokzero&layout=compact&theme=radical" alt="Top Languages" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=havokzero&theme=radical" alt="GitHub Streak" />
-</div>
-
----
-
-### 💡 Expertise & Interests
-
-* **Red Teaming:** Reverse engineering, binary exploitation (CVE-2024-1086 research), and VoIP security.
-* **Blue Teaming:** Financial crime investigation, fraud detection systems, and automated log analysis.
-* **Hardware:** 3D printing with engineering-grade carbon fiber composites and high-performance RC telemetry.
-* **Training:** Active participant in **TryHackMe** and community CTFs.
-
----
-
-### 📈 Activity
+### 📈 Global Presence
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=havokzero&color=4B0082&label=PROFILE+VIEWS&style=flat-square" alt="Profile Views" />
