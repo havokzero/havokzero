@@ -6,9 +6,7 @@
 
 ### 👨‍💻 About Me
 
-I am a professional **Fraud & Financial Crimes Investigator** and **Technical Security Researcher** based in Phoenix, AZ. With 8 years of service in the **U.S. Army**, I specialize in defensive and offensive security, moving between deep-dive financial forensics and low-level exploit development. 
-
-Whether it's parsing logs with PowerShell, hunting vulnerabilities in the wild, or stress-testing engineering-grade filaments for structural integrity, I’m driven by a need to understand how things break—and how to fix them.
+Senior Fraud & Financial Crimes Investigator and Technical Security Researcher. I spent 8 years in the U.S. Army before pivoting into investing financial crimes and learning cybersecurity and digital forensics as a hobby.
 
 ---
 
@@ -21,7 +19,7 @@ Whether it's parsing logs with PowerShell, hunting vulnerabilities in the wild, 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=havokzero&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="havok's GitHub stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=havokzero&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub stats" />
   <br/>
   <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=havokzero&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" />
   <br/>
@@ -30,18 +28,9 @@ Whether it's parsing logs with PowerShell, hunting vulnerabilities in the wild, 
 
 ---
 
-### 🚀 Current Research & Projects
-
-* **Vicidial Exposure Study:** Authoring a whitepaper on the global footprint of exposed Vicidial servers identified via wide-scale network scanning.
-* **Hardware Monitoring:** Developing a self-hosted **Flask/MQTT dashboard** for real-time monitoring and telemetry of Bambu Lab H2S systems.
-* **Material Science:** Conducting technical studies on **PA612-CF15** and **PPA-CF** performance in extreme high-heat environments.
-* **Robotics:** Integrating **NVIDIA Jetson** compute modules into high-performance RC platforms for edge AI applications.
-
----
-
 ### 🛠️ Languages and Tools
 
-**Development & Scripting**
+**Dev & Scripting**
 <p align="left">
   <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
   <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
