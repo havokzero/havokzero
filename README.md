@@ -1,105 +1,78 @@
 # Hi, I'm havok 👋 
 
----
-
-### 👨‍💻 About Me:
-
-I'm a Cybersecurity Enthusiast and Researcher. I specialize in exploring security vulnerabilities, developing custom tools for testing, and responsibly sharing my findings. My focus is on understanding systems to help improve their security and contribute to a safer digital environment.
-
+> **Senior Fraud Investigator | Technical Security Researcher | Veteran**
 
 ---
 
-### :hammer_and_wrench: Languages and Tools:
+### 👨‍💻 About Me
 
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-original.svg" title="C#" alt="C#" width="50" height="50"/>&nbsp;
-  <img src="https://www.rust-lang.org/logos/rust-logo-512x512.png" title="Rust" alt="Rust" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="C++" alt="C++" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/c/c-original.svg" title="C" alt="C" width="50" height="50"/>&nbsp;
-</div>
+I am a professional **Fraud & Financial Crimes Investigator** and **Technical Security Researcher** based in Phoenix, AZ. With a background of 8 years in the **U.S. Army**, I specialize in defensive and offensive security, moving between deep-dive financial forensics and low-level exploit development. 
 
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="Bash" alt="Bash" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/powershell/powershell-original.svg" title="PowerShell" alt="PowerShell" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux" alt="Linux" width="50" height="50"/>&nbsp;
-</div>
-
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/docker/docker-original-wordmark.svg" title="Docker" alt="Docker" width="50" height="50"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/azure/azure-original-wordmark.svg" title="Azure" alt="Azure" width="50" height="50"/>&nbsp;
-</div>
+Whether it's parsing logs with PowerShell, hunting vulnerabilities in the wild, or stress-testing engineering-grade filaments for structural integrity, I’m driven by a need to understand how things break—and how to fix them.
 
 ---
 
-### :fire: My GitHub Stats:
+### 🛠️ Languages and Tools
+
+**Core Development & Scripting**
+<p align="left">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/powershell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+</p>
+
+**Security & Infrastructure**
+<p align="left">
+  <img src="https://img.shields.io/badge/linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/azure-%230089D6.svg?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
+
+---
+
+### 🚀 Current Research & Projects
+
+* **Vicidial Exposure Study:** Currently writing a whitepaper on the global prevalence of exposed Vicidial servers identified via network reconnaissance.
+* **Hardware Monitoring:** Developing a self-hosted **Flask/MQTT dashboard** for real-time monitoring of 3D printing systems (Bambu Lab H2S / Flashforge).
+* **Material Science (Structural Integrity):** Testing **PA612-CF15** and **PPA-CF** performance in high-heat climates for structural applications.
+* **Robotics & Edge AI:** Integrating **NVIDIA Jetson** compute modules into high-performance RC platforms (Arrma Mojave/Grom).
+
+---
+
+### 🔥 GitHub Stats
 
 <div align="center">
-  <!-- GitHub Stats -->
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=havokzero&show_icons=true&theme=radical" alt="GitHub stats" />
-</div>
-
-<div align="center">
-  <!-- GitHub Streak -->
+  <img src="https://github-readme-stats.vercel.app/api?username=havokzero&show_icons=true&theme=radical&rank_icon=github" alt="havok's GitHub stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=havokzero&layout=compact&theme=radical" alt="Top Languages" />
+  <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=havokzero&theme=radical" alt="GitHub Streak" />
 </div>
 
-<div align="center">
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=havokzero&layout=compact&theme=radical" alt="Top Languages" />
-</div>
+---
+
+### 💡 Expertise & Interests
+
+* **Red Teaming:** Reverse engineering, binary exploitation (CVE-2024-1086 research), and VoIP security.
+* **Blue Teaming:** Financial crime investigation, fraud detection systems, and automated log analysis.
+* **Hardware:** 3D printing with engineering-grade carbon fiber composites and high-performance RC telemetry.
+* **Training:** Active participant in **TryHackMe** and community CTFs.
 
 ---
 
-### 🔍 What I Do:
+### 📈 Activity
 
-- Research and exploit vulnerabilities in systems, networks, and software.
-- Develop custom scripts and tools for penetration testing and ethical hacking with some fun projects here and there.
-- Perform vulnerability assessments and disclose findings responsibly.
-- Engage in Capture the Flag (CTF) challenges to stay sharp and refine my techniques.
-- Contribute to the cybersecurity community by sharing knowledge and tools.
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=havokzero&color=4B0082&label=PROFILE+VIEWS&style=flat-square" alt="Profile Views" />
+</p>
 
----
-
-### 🚀 Current Projects:
-
-- Building and refining tools for automating ethical hacking tasks.
-- Writing a custom Python program for exploit research and proof-of-concept (PoC) development.
-- Contributing to open-source security tools and frameworks.
+<p align="center">
+  <a href="https://tryhackme.com/p/havok">
+    <img src="https://tryhackme-badges.s3.amazonaws.com/havok.png" alt="TryHackMe Badge">
+  </a>
+</p>
 
 ---
-
-### 💡 My Interests:
-
-- Reverse engineering and binary exploitation.
-- Network security and red teaming.
-- Writing efficient code in Python, Rust, and C++ for cybersecurity applications.
-- Collaborating on open-source security projects and improving vulnerability scanning tools.
-- Social Engineering
-- VoIP
-
----
-
-![](./profile-3d-contrib/profile-night-green.svg)
-<!--<div align="center"> ![3D Contribution Graph](./profile-3d-contrib/profile-night-green.svg) </div>-->
-
----
-
-<!--[![TryHackMe](assets/thm_propic.png)](https://tryhackme.com/p/havok) -->
-<!--<p align="center"><a href="https://tryhackme.com/p/havok"><img src="./assets/thm_propic.png" alt="TryHackMe Badge"></a></p>-->
-
-<!--![](assets/thm_propic.png)-->
-
-<!--div align="center"> ![](assets/thm_propic.png) </div> <!--(https://tryhackme.com/p/havok) </div-->
-
-<p align="center"><img src="assets/thm_propic.png" alt="TryHackMe Badge"></p>
-
----
-
-
-<!-- ![Profile views](https://komarev.com/ghpvc/?username=havokzero&color=FF0054) -->
-![](https://komarev.com/ghpvc/?username=havokzero&color=4B0082&label=PROFILE+VIEWS&style=flat-square)
-![](https://komarev.com/ghpvc/?username=havokzero&color=4B0082&style=pixel)
-
-
